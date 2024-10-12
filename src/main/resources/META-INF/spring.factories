@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.wittyprince.commons.cmm1.config.Cmm1AutoConfiguration
