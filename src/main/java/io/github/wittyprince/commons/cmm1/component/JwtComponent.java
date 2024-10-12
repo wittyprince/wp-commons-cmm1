@@ -1,6 +1,6 @@
 package io.github.wittyprince.commons.cmm1.component;
 
-import io.github.wittyprince.commons.cmm1.config.JwtConfig;
+import io.github.wittyprince.commons.cmm1.config.JwtConfigProperties;
 import io.github.wittyprince.commons.cmm1.util.JwtUtils;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -22,7 +22,7 @@ import java.util.function.Function;
 public class JwtComponent {
 
     @Autowired
-    private JwtConfig jwtConfig;
+    private JwtConfigProperties jwtConfig;
 
 
     public String getJwtToken(Map<String, String> params) throws RuntimeException {

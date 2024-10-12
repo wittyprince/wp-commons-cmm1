@@ -13,6 +13,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * TokenInterceptor
@@ -51,7 +52,13 @@ public class TokenInterceptor implements HandlerInterceptor {
             }
             if (claims != null) {
                 String userId = claims.getSubject();
-                UserContextHolder.setUser(userId, new ArrayList<>());
+                Object roles = claims.get("roles");
+                if (roles != null) {
+                    UserContextHolder.setUser(userId, Arrays.asList(roles.toString().split(",")));
+                } else {
+                    UserContextHolder.setUser(userId, new ArrayList<>());
+                }
+//                UserContextHolder.setUser(userId, new ArrayList<>());
 //                request.setAttribute("user_claims", claims);
                 return true;
             }
