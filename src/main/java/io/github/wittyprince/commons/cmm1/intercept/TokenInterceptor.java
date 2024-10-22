@@ -1,6 +1,7 @@
 package io.github.wittyprince.commons.cmm1.intercept;
 
 import io.github.wittyprince.commons.cmm1.component.JwtComponent;
+import io.github.wittyprince.commons.cmm1.exception.UserTokenIncorrectOrExpiredException;
 import io.github.wittyprince.commons.cmm1.holder.UserContextHolder;
 import io.jsonwebtoken.Claims;
 import org.slf4j.Logger;
@@ -48,7 +49,7 @@ public class TokenInterceptor implements HandlerInterceptor {
                 claims = jwt.parseJwtToken(token);
             } catch (Exception e) {
                 logger.error("解析token异常: {}", e.getMessage(), e);
-                throw new RuntimeException("token不正确或者已过期!");
+                throw new UserTokenIncorrectOrExpiredException("token不正确或者已过期!");
             }
             if (claims != null) {
                 String userId = claims.getSubject();
