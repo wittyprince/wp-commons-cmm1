@@ -1,6 +1,7 @@
 package io.github.wittyprince.commons.cmm1.intercept;
 
 import io.github.wittyprince.commons.cmm1.component.JwtComponent;
+import io.github.wittyprince.commons.cmm1.exception.UserTokenIncorrectOrEmptyException;
 import io.github.wittyprince.commons.cmm1.exception.UserTokenIncorrectOrExpiredException;
 import io.github.wittyprince.commons.cmm1.holder.UserContextHolder;
 import io.jsonwebtoken.Claims;
@@ -64,7 +65,7 @@ public class TokenInterceptor implements HandlerInterceptor {
                 return true;
             }
         }
-        throw new RuntimeException("token不正确或token为空!");
+        throw new UserTokenIncorrectOrEmptyException("token不正确或token为空!");
     }
 
     @Override

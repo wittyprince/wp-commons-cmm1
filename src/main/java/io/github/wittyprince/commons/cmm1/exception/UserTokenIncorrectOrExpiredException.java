@@ -1,7 +1,7 @@
 package io.github.wittyprince.commons.cmm1.exception;
 
 /**
- * UserTokenIncorrentOrExpiredException
+ * UserTokenIncorrectOrExpiredException
  *
  * @author WangChen
  * Created on 2024/10/22
@@ -10,7 +10,7 @@ package io.github.wittyprince.commons.cmm1.exception;
 public class UserTokenIncorrectOrExpiredException extends RuntimeException {
 
     public UserTokenIncorrectOrExpiredException() {
-        super("用户token不正确或已过期");
+        super("token不正确或者已过期");
     }
 
     public UserTokenIncorrectOrExpiredException(String message) {
