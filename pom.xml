@@ -9,7 +9,7 @@
 
     <groupId>io.github.wittyprince</groupId>
     <artifactId>wp-commons-cmm1</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>jar</packaging>
 
     <name>wp-commons-cmm1</name>
