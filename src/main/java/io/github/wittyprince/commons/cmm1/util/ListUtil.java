@@ -16,7 +16,7 @@ import static java.util.stream.Collectors.mapping;
 /**
  * list util
  *
- * @author WangChen
+ * @author wp
  * Created on 2022/11/14
  * @since 1.0
  */

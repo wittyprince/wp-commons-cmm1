@@ -20,7 +20,7 @@ import java.util.Arrays;
 /**
  * TokenInterceptor
  *
- * @author WangChen
+ * @author wp
  * Created on 2024/6/7
  * @since 2.2
  */

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * BCryptComponent
  *
- * @author WangChen
+ * @author wp
  * Created on 2024/10/30
  * @since 0.1
  */

@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * id generator
  *
- * @author WangChen
+ * @author wp
  * Created on 2023/10/8
  * @since 1.0.1
  */

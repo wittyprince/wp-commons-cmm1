@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * CryptoConfigProperties
  *
- * @author WangChen
+ * @author wp
  * Created on 2024/10/29
  * @since 0.1
  */

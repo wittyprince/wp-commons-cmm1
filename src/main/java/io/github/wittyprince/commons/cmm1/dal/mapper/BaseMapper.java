@@ -19,7 +19,7 @@ import static io.mybatis.common.core.Code.UPDATE_FAILURE;
 /**
  * base mapper
  *
- * @author WangChen
+ * @author wp
  * Created on 2023/10/8
  * @since 1.0.1
  */

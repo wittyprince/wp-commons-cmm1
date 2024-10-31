@@ -3,7 +3,7 @@ package io.github.wittyprince.commons.cmm1.exception;
 /**
  * UserTokenIncorrectOrEmptyException
  *
- * @author WangChen
+ * @author wp
  * Created on 2024/10/22
  * @since 1.0
  */

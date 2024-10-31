@@ -6,7 +6,7 @@ package io.github.wittyprince.commons.cmm1.config;
 ///**
 // * JwtConfig
 // *
-// * @author WangChen
+// * @author wp
 // * Created on 2024/6/7
 // * @since 2.2 */
 //@Configuration

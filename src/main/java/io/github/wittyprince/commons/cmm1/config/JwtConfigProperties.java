@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * Jwt
  *
- * @author WangChen
+ * @author wp
  * Created on 2024/10/12
  * @since 0.1
  */

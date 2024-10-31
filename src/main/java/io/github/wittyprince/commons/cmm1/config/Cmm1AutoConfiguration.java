@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Cmm1AutoConfiguration
  *
- * @author WangChen
+ * @author wp
  * Created on 2024/10/10
  * @since 0.0.1
  */
